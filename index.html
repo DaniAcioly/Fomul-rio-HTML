@@ -1,0 +1,56 @@
+<!DOCTYPE html:5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Academy</title>
+ 
+<!-- Criando estilos internos na nossa página em CSS--> 
+<style>
+/* criando o contexto de estilo nativo */
+h1{font-size: 30px;
+    color: violet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*cruando um estilo de classe*/
+
+.cab_especial {
+    background-color: greenyellow;
+    font-size: 16px;
+    font-weight: bolder;
+    color: blue;
+
+}
+/*criando um estilo para id*/
+#cadastro{
+    color: cornflowerblue;
+    font-size: 14px;
+}
+
+</style>   
+</head>
+<body>
+    <h1> Fomulário de cadastro alunos x cursos da Gama Academy</h1>
+    <!--
+    <h2> Fomulário de cadastro alunos x cursos da Gama Academy</h2>
+    <h3> Fomulário de cadastro alunos x cursos da Gama Academy</h3>
+    <h4> Fomulário de cadastro alunos x cursos da Gama Academy</h4>
+    <h5> Fomulário de cadastro alunos x cursos da Gama Academy</h5>
+   <h6> Fomulário de cadastro alunos x cursos da Gama Academy</h6> -->
+
+
+   <h1 class="cab_especial">Conheça todos os nossos cursos</h1>
+
+<!-- Criando um formulário-->
+
+<form id="cadastro" method="post">
+    <label>Nome Aluno:</label>
+    <input type="text" name="nome_aluno" class="cab_especial"> <br><br>
+    <label> Email_aluno</label>
+    <input type="email" name="Email_aluno" class="cab_especial">
+</form>
+
+</body>
+</html>
